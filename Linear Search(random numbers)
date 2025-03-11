@@ -7,7 +7,8 @@ int main() {
 
     int numbers[10];
     printf("Generated 10 random numbers:\n");
-    for (int i = 0; i < 10; i++) {
+    int i;
+    for (i = 0; i < 10; i++) {
         numbers[i] = rand() % 100 + 1; 
         printf("%d ", numbers[i]);
     }
@@ -18,17 +19,16 @@ int main() {
     scanf("%d", &target);
 
     int found = 0;
-    for (int i = 0; i < 10; i++) {
+    for (i = 0; i < 10; i++) {
         if (numbers[i] == target) {
             printf("Number %d found at index %d.\n", target, i);
             found = 1;
             break;
         }
     }
-
+    
     if (found==0) {
         printf("Number %d not found in the array.\n", target);
     }
     return 0;
 }
-
