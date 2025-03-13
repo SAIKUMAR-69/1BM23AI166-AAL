@@ -80,3 +80,14 @@ int main() {
 
     return 0;
 }
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OUTPUT:-
+
+Enter the number of elements (up to 1000): 21
+Array elements (sorted):
+2 11 13 13 15 17 19 21 34 39 51 58 58 63 66 79 81 85 88 93 99 
+Random key to search for: 17
+Element 17 is found at index 5.
+Time Taken in seconds: 0.000001
