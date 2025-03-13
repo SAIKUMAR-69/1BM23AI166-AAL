@@ -36,3 +36,13 @@ int main() {
     }
     return 0;
 }
+
+----------------------------------------------------------------------------------------------------------------------------
+
+OUTPUT:-
+
+Generated 10 random numbers:
+89 92 22 67 97 79 53 28 30 79 
+Enter the number you want to search for: 53
+Number 53 found at index 6.
+count = 7
